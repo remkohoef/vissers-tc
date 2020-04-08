@@ -31,8 +31,8 @@
   #
   xbc_splash_state       : 'enabled'
   xbc_splash_type        : 'file'
-  xbc_splash_image_url   : 'https://raw.githubusercontent.com/bitfinity-nl/ansible-role-xubuntu-core/master/files/plymouth-bitfinityos.png'  
-  xbc_splash_image_file  : 'plymouth-bitfinityos.png' 
+  xbc_splash_image_url   : 'http://10.11.0.10/resources/veg/wallpaper/default-wallpaper.png'  
+  xbc_splash_image_file  : 'default-wallpaper.png' 
 
 
   # -- Startbutton --
@@ -56,8 +56,8 @@
   xbc_startbutton_state   : 'enabled'
   xbc_startbutton_type    : 'file'
   xbc_startbutton_url     : ''
-  xbc_startbutton_file    : 'bitfinity_38x38.png'
-  xbc_startbutton_name    : 'bitfinity_38x38.png'
+  xbc_startbutton_file    : 'vissers_38x38.png'
+  xbc_startbutton_name    : 'vissers_38x38.png'
 
 
   # -- Desktop  --
@@ -96,9 +96,9 @@
   #
   xbc_desktop_state                     : 'enabled'
   xbc_desktop_type                      : 'file'
-  xbc_desktop_url                       : 'https://example.org/wallpaper.jpg'
-  xbc_desktop_file                      : 'wallpaper-bitfinityos.png'
-  xbc_desktop_name                      : 'wallpaper-bitfinityos.png'
+  xbc_desktop_url                       : 'http://10.11.0.10/resources/veg/wallpaper/default-wallpaper.png'
+  xbc_desktop_file                      : 'default-wallpaper.png'
+  xbc_desktop_name                      : 'default-wallpaper.png'
 
   xbc_desktop_theme                     : 'Arc'
   xbc_desktop_icon_theme                : 'Numix-Circle'
@@ -167,9 +167,9 @@
   #
   xbc_loginwp_state      : 'enabled'
   xbc_loginwp_type       : 'file'
-  xbc_loginwp_url        : 'https://example.org/wallpaper.jpg'
-  xbc_loginwp_file       : 'wallpaper-bitfinityos.png'
-  xbc_loginwp_name       : 'wallpaper-bitfinityos.png'
+  xbc_loginwp_url        : 'http://10.11.0.10/resources/veg/wallpaper/default-wallpaper.png'
+  xbc_loginwp_file       : 'default-wallpaper.png'
+  xbc_loginwp_name       : 'default-wallpaper.png'
   xbc_login_theme        : 'Arc'
   xbc_icon_theme         : 'Numix-Circle'
   xbc_font_name          : 'Roboto'
@@ -230,7 +230,7 @@
   # Resources:
   #   - http://docs.xfce.org/xfce/xfce4-session/advanced#kiosk_mode
   #
-  xbc_kiosk_state                : 'disabled'
+  xbc_kiosk_state                : 'enabled'
   xbc_kiosk_user                 : 'autologin'
   xbc_kiosk_user_timeout         : '0'
   xbc_kiosk_power                : 'enabled' 
@@ -297,5 +297,6 @@
   xbc_kiosk_applist_white :
 #    - xfce4-terminal.desktop
 #    - debian-xterm.desktop
+
 
 
