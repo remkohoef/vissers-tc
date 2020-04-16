@@ -1,4 +1,5 @@
-ansible-role-xubuntu-core 
+#VissersOS
+
 ========= 
 
 Xubuntu-core is an open source desktop environment for 
@@ -49,16 +50,16 @@ Example Playbook
         
         # Bootscreen
         xbc_splash_type        : 'url'
-        xbc_splash_image_url   : 'http://172.16.2.20/resource/greenfoodos/greenlogo.png'
+        xbc_splash_image_url   : 'http://172.16.2.20/resource/vissersos/greenlogo.png'
 
         # Login 
         xbc_loginwp_type       : 'url'
-        xbc_loginwp_url        : 'http://nl-bel-cmd01/resource/greenfoodos/wallpaper.jpg'
+        xbc_loginwp_url        : 'http://nl-bel-cmd01/resource/vissersos/wallpaper.jpg'
         xbc_loginwp_name       : 'wallpaper.jpg'
 
         # Desktop
         xbc_desktop_type       : 'url'
-        xbc_desktop_url        : 'http://nl-bel-cmd01/resource/greenfoodos/wallpaper.jpg'
+        xbc_desktop_url        : 'http://nl-bel-cmd01/resource/vissersos/wallpaper.jpg'
         xbc_desktop_name       : 'wallpaper.jpg'
 
         # Kiosk mode
@@ -79,6 +80,8 @@ GPLv3
 Author Information
 ------------------
 
+E: info@whay.nl
 E: lrutten@bitfinity.nl
 
+I: https://whay.nl
 I: https://www.bitfinity.nl
